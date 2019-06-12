@@ -65,13 +65,56 @@
 		echo "Es fin de semana";
 	}
 
+	echo "<hr/>";
+
+	//SWITCH
+	
+	switch ($dia){
+		case 1:
+			echo "LUNES";
+			break;
+		case 2:
+			echo "MARTES";
+			break;
+		case 3:
+			echo "MIERCOLES";
+			break;
+		case 4;
+			echo "JUEVES";
+			break;
+		case 5;
+			echo "VIERNES";
+			break;
+		default:
+			echo "FIN DE SEMANA";
+	}
+
+
 	//Ejemplo 5
 	$edad1 = 18;
 	$edad2 = 64;
 	$edad_oficial = 20;
 
 	if($edad_oficial >= $edad1 && $edad_oficial <= 64){
-		
+		echo "ESTA EN EDAD DE TRABAJAR";
+	}else{
+		echo "NO PUEDE TRABAJAR";
 	}
 
+	$pais = "Mexico";
+	if($pais == "Mexico" || $pais == "España" || $pais == "Colombia"){
+		echo "En este pais se habla español";
+	}else{
+		echo "no se habla español";
+	}
+
+	//GOTO
+	goto marca;
+	echo "<h3>Instruccion 1</h3>"
+	echo "<h3>Instruccion 2</h3>"
+	echo "<h3>Instruccion 3</h3>"
+	echo "<h3>Instruccion 4</h3>"
+
+	marca:
+	echo "<h2>Me he saltado 4 echos</h2>";
 ?>
