@@ -53,8 +53,26 @@
 
     echo calcudadora(20, 5);
 
-    function devuelve($nombre){
-    	return "El nombre es: $nombre";
+    //Ejemplo 4 
+
+    function getNombre($nombre){
+        $texto = "El nombre es: $nombre";
+        return $texto;
     }
+
+    function getApellidos($apellidos){
+        $texto = "El nombre es: $apellidos";
+        return $texto;
+    }
+
+    function devuelve($nombre, $apellidos){
+
+        $texto = getNombre($nombre)
+                ."<br/>".
+                getApellidos($apellidos);
+    	return $cadena;
+    }
+
+    echo devuelve("Brandon", "Osorio");
 
 ?>
