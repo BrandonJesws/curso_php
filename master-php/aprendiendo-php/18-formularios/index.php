@@ -11,6 +11,14 @@
 		<p><input type="text" name="nombre" autofocus="autofocus" /></p>
 		<label for="apellido">Apellido:</label> 
 		<p><input type="text" name="apellido"/></p>
+		<label for="apellido">Apellido:</label> 
+		<p><input type="text" name="apellido"/></p>
+		<label for="apellido">Apellido:</label> 
+		<p><input type="text" name="apellido"/></p>
+		<label for="apellido">Apellido:</label> 
+		<p><input type="text" name="apellido"/></p>
+		<label for="apellido">Apellido:</label> 
+		<p><input type="text" name="apellido"/></p>
 		<input type="submit" value="Enviar"/>
 	</form>
 </body>
